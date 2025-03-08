@@ -21,6 +21,7 @@ public class OpenMRS_Scenario {
 	
 	@Given("Launch Login page")
 	public void launchLoginPage() {
+		
 	    
 	    driver.get("https://o2.openmrs.org/openmrs/login.htm");
 		driver.manage().window().maximize();

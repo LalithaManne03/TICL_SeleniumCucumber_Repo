@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="3" failures="0" name="TestRun.RunTest" time="70.389" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="22.0.2+9-adhoc.Administrator.jdk22u"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\OpenLogic\jre-22.0.2.9-hotspot\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\180897\.jenkins\workspace\CucubmerProj"/>
+    <property name="java.vm.vendor" value="OpenLogic"/>
+    <property name="java.vendor.url" value="https://openlogic.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\180897\.jenkins\workspace\CucubmerProj"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="22.0.2+9-adhoc.Administrator.jdk22u"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\180897\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\180897\Desktop\apache-maven-3.8.8\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\OpenLogic\jre-22.0.2.9-hotspot\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\180897\Desktop\apache-maven-3.8.8/bin;C:\Apache Jmeter\apache-jmeter-5.6.3\bin;C:\Program Files\OpenLogic\jre-22.0.2.9-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\PuTTY\;C:\Windows\CCM;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86\;C:\Program Files (x86)\Common Files\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Common Files\Pulse Secure\VC142.CRT\X86\;C:\Windows\CCM;C:\Windows\CCM;C:\Windows\CCM;C:\Windows\CCM;C:\Program Files\PuTTY\;C:\Program Files\Microsoft VS Code\bin;C:\Users\180897\Desktop\apache-maven-3.8.8\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\180897\AppData\Local\Microsoft\WindowsApps;C:\Users\180897\Desktop\apache-maven-3.8.8;C:\Users\180897\Documents\allure-2.32.2\allure-2.32.2\bin;C:\Users\180897\Desktop\apache-maven-3.8.8\bin;C:\Program Files\Git\bin;C:\Users\180897\AppData\Local\GitHubDesktop\bin;."/>
+    <property name="maven.conf" value="C:\Users\180897\Desktop\apache-maven-3.8.8/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="66.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Users\180897\Desktop\apache-maven-3.8.8\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\180897"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="22"/>
+    <property name="user.name" value="180897"/>
+    <property name="java.class.path" value="C:\Users\180897\Desktop\apache-maven-3.8.8\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="22"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -f C:\Users\180897\eclipse-workspace\TICL_OpenMRS_Cucumber\pom.xml clean test"/>
+    <property name="java.home" value="C:\Program Files\OpenLogic\jre-22.0.2.9-hotspot"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="22.0.2"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="OpenLogic"/>
+    <property name="maven.home" value="C:\Users\180897\Desktop\apache-maven-3.8.8"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.vendor.url.bug" value="https://techsupport.roguewave.com/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="OpenLogic-OpenJDK"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="User login" name="User should login successfully with valid credential" time="14.169"/>
+  <testcase classname="User login" name="Regsiter a patient" time="28.395"/>
+  <testcase classname="User login" name="Update a patient" time="27.825"/>
+</testsuite>

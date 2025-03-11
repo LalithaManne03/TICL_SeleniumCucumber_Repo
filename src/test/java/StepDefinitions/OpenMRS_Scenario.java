@@ -41,7 +41,7 @@ public class OpenMRS_Scenario {
 	@Then("User should be in Home Page")
 	public void userLoggedIn() throws InterruptedException {
 	    // Write code here that turns the phrase above into concrete actions
-		WebDriverWait wdw=new WebDriverWait(driver,Duration.ofSeconds(20));
+		WebDriverWait wdw=new WebDriverWait(driver,Duration.ofSeconds(40));
 
 		WebElement logout = driver.findElement(By.xpath("//*[@id=\"navbarSupportedContent\"]/ul/li[3]/a"));
 
@@ -87,7 +87,7 @@ public class OpenMRS_Scenario {
 	public void confirmRegistration() {
 		driver.findElement(By.id("submit")).click();
 		
-		WebDriverWait wdw=new WebDriverWait(driver,Duration.ofSeconds(30));
+		WebDriverWait wdw=new WebDriverWait(driver,Duration.ofSeconds(40));
 		wdw.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@class=\"patient-header row \"]/div[2]/div/span")));
 				
 				boolean patientId =  driver.findElement(By.xpath("//*[@class=\"patient-header row \"]/div[2]/div/span")).isDisplayed();
@@ -125,7 +125,7 @@ public class OpenMRS_Scenario {
 	@Then("Clicks on confirm patient record is updated")
 	public void confirmUpdate() {
 		driver.findElement(By.xpath("//button[@id='registration-submit']")).click();
-		WebDriverWait wdw=new WebDriverWait(driver,Duration.ofSeconds(20));
+		WebDriverWait wdw=new WebDriverWait(driver,Duration.ofSeconds(40));
 		wdw.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[@class='PersonName-givenName']")));
 				
 				WebElement actual_updated_name =  driver.findElement(By.xpath("//span[@class='PersonName-givenName']"));

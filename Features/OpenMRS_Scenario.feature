@@ -32,7 +32,7 @@ Feature: OpenMRS_Inpatient_Registration
     And Update Patient name and Save
     Then Clicks on confirm patient record is updated
     
-    //for git checkin
+    
     
      
      

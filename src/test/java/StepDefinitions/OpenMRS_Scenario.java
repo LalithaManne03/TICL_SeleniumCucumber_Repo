@@ -42,6 +42,8 @@ public class OpenMRS_Scenario {
 	public void userLoggedIn() throws InterruptedException {
 	    // Write code here that turns the phrase above into concrete actions
 		WebDriverWait wdw=new WebDriverWait(driver,Duration.ofSeconds(40));
+		wdw.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\\\"navbarSupportedContent\\\"]/ul/li[3]/a")));
+
 
 		WebElement logout = driver.findElement(By.xpath("//*[@id=\"navbarSupportedContent\"]/ul/li[3]/a"));
 
